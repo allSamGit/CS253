@@ -1,0 +1,132 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[124]  Note:  Grading the build output in build.out
+[126]  SCORE:  grep confirmed "error" not in build.out for 2 points
+[127]  SCORE:  grep confirmed "warning" not in build.out for 4 points
+[131]  SCORE:  Found file codeWreck for 1 points
+[137]  Note:  Verify codeWreck will exit normally with EOF input
+[140]  SCORE: codeWreck ran and exited normally after EOF for 4 points
+[150]  Testing:   codeWreck 1
+[152]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc287829 for 2 points
+[156]  Testing:  codeWreck -e 1
+[158]  SCORE:  grep confirmed "1" not in /tmp/jrc287829 for 2 points
+[162]  Testing:  codeWreck -o 1
+[164]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc287829 for 2 points
+[168]  Testing:  codeWreck -e 1.0 2.5 3.0 4.0
+[170]  SCORE:  grep found "6\.50*" in /tmp/jrc287829 for 4 points
+[179]  SCORE:  grep confirmed "Invalid\s*" not in /tmp/jrc287829 for 4 points
+[180]  ERROR:  grep should not find "definitely lost\:\s*[0-9]" in /tmp/jrc287829
+[185]  Note:  make clean
+Grade:  25 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+cc -g -O0 -Wall -std=c99   -c -o codeWreck.o codeWreck.c
+gcc -o codeWreck -g -O0 -Wall -std=c99 codeWreck.o
+rm -f codeWreck *.o *~
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[124]  Note:  Grading the build output in build.out
+[126]  SCORE:  grep confirmed "error" not in build.out for 2 points
+[127]  SCORE:  grep confirmed "warning" not in build.out for 4 points
+[131]  SCORE:  Found file codeWreck for 1 points
+[137]  Note:  Verify codeWreck will exit normally with EOF input
+[140]  SCORE: codeWreck ran and exited normally after EOF for 4 points
+[150]  Testing:   codeWreck 1
+[152]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc306550 for 2 points
+[156]  Testing:  codeWreck -e 1
+[158]  SCORE:  grep confirmed "1" not in /tmp/jrc306550 for 2 points
+[162]  Testing:  codeWreck -o 1
+[164]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc306550 for 2 points
+[168]  Testing:  codeWreck -e 1.0 2.5 3.0 4.0
+[170]  SCORE:  grep found "6\.50*" in /tmp/jrc306550 for 4 points
+[179]  SCORE:  grep confirmed "Invalid\s*" not in /tmp/jrc306550 for 4 points
+[180]  ERROR:  grep should not find "definitely lost\:\s*[0-9]" in /tmp/jrc306550
+[185]  Note:  make clean
+Grade:  25 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+cc -g -O0 -Wall -std=c99   -c -o codeWreck.o codeWreck.c
+gcc -o codeWreck -g -O0 -Wall -std=c99 codeWreck.o
+rm -f codeWreck *.o *~
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[124]  Note:  Grading the build output in build.out
+[126]  SCORE:  grep confirmed "error" not in build.out for 2 points
+[127]  SCORE:  grep confirmed "warning" not in build.out for 4 points
+[131]  SCORE:  Found file codeWreck for 1 points
+[137]  Note:  Verify codeWreck will exit normally with EOF input
+[140]  SCORE: codeWreck ran and exited normally after EOF for 4 points
+[150]  Testing:   codeWreck 1
+[152]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc835435 for 2 points
+[156]  Testing:  codeWreck -e 1
+[158]  SCORE:  grep confirmed "1" not in /tmp/jrc835435 for 2 points
+[162]  Testing:  codeWreck -o 1
+[164]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc835435 for 2 points
+[168]  Testing:  codeWreck -e 1.0 2.5 3.0 4.0
+[170]  SCORE:  grep found "6\.50*" in /tmp/jrc835435 for 4 points
+[179]  SCORE:  grep confirmed "Invalid\s*" not in /tmp/jrc835435 for 4 points
+[180]  ERROR:  grep should not find "definitely lost\:\s*[0-9]" in /tmp/jrc835435
+[185]  Note:  make clean
+Grade:  25 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+cc -g -O0 -Wall -std=c99   -c -o codeWreck.o codeWreck.c
+gcc -o codeWreck -g -O0 -Wall -std=c99 codeWreck.o
+rm -f codeWreck *.o *~
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[124]  Note:  Grading the build output in build.out
+[126]  SCORE:  grep confirmed "error" not in build.out for 2 points
+[127]  SCORE:  grep confirmed "warning" not in build.out for 4 points
+[131]  SCORE:  Found file codeWreck for 1 points
+[137]  Note:  Verify codeWreck will exit normally with EOF input
+[140]  SCORE: codeWreck ran and exited normally after EOF for 4 points
+[150]  Testing:   codeWreck 1
+[152]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc861386 for 2 points
+[156]  Testing:  codeWreck -e 1
+[158]  SCORE:  grep confirmed "1" not in /tmp/jrc861386 for 2 points
+[162]  Testing:  codeWreck -o 1
+[164]  SCORE:  grep found "1[0\.]\+" in /tmp/jrc861386 for 2 points
+[168]  Testing:  codeWreck -e 1.0 2.5 3.0 4.0
+[170]  SCORE:  grep found "6\.50*" in /tmp/jrc861386 for 4 points
+[179]  SCORE:  grep confirmed "Invalid\s*" not in /tmp/jrc861386 for 4 points
+[180]  ERROR:  grep should not find "definitely lost\:\s*[0-9]" in /tmp/jrc861386
+[185]  Note:  make clean
+Grade:  25 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+cc -g -O0 -Wall -std=c99   -c -o codeWreck.o codeWreck.c
+gcc -o codeWreck -g -O0 -Wall -std=c99 codeWreck.o
+rm -f codeWreck *.o *~

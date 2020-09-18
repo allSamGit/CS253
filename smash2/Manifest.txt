@@ -1,0 +1,4 @@
+smash2:  This is an empty starter directory for the Smash Part II project.  You will need
+to copy (don't mv!!!) your Makefile and smash.c from your smash (Part I) directory to
+this directory.
+

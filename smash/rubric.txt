@@ -1,0 +1,30 @@
+Grade: XX/70
+=================================================
+- Passing all grader scripts (50 points): XX/50
+
+  Reflection:
+	Does the grader check everything?
+	What doesn't it check?
+	How did you test things before running the grader?
+
+- Code quality (10 points): XX/10
+	The programmer makes consistent use of indentation
+	The programmer makes consistent use of braces
+	#include directives are listed at the top of the file
+	#define directives are at the top of the file, after includes
+	The programmer makes use of comments where necessary
+	There are no unnecessary lines of code (e.g. commented, unused code)
+	No global variables are used
+	The names of constants defined by #define are in all CAPITAL letters
+	Variable names are descriptive
+	Variable name casing is consistent (e.g. camelCase or underscore_separation)
+	Variables are all initialized before use
+
+  Reflection:
+
+
+- README.md: XX/10
+	Follows the required format.
+	Is descriptive about how to compile and use.
+
+  Reflection:

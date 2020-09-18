@@ -1,0 +1,71 @@
+
+
+
+************
+Author : Saman Rastgar
+Project : Smash part 2
+CS253-Jim Conrad
+*************
+
+
+Overview:
+
+We are going to implement a our bash shell that we have used in part 1 called smash to make part 2 that also has functionality called history
+
+
+Compiling and running the program:
+
+
+- Clean up the directory
+
+ $ make clean
+
+- Make your project from Makefile
+
+$ make 
+
+-Run the program
+
+$ ./smash
+
+* This  file will be created for you after making the project
+
+
+Discussion:
+
+In this project we are going to expand smash 1 and it's functionality by adding another feature called history
+
+So for that reason we need ... history.h(The prototypes of our history functions) and history.c(The functions that we are going to add to have process on history)
+
+Methods inside of history.c:
+
+history init_history() -> Intialize and return the history
+void add_history -> Stores history
+void clear_history -> Clears history
+void print_history -> Prints the history
+
+Functionality and Tests:
+
+$ history -> Supposed to show the enteries that so far we had in our program
+$ cd -> should change directory if we have valid directory 
+example : cd /tmp is valid 
+cd /hello is not valid 
+$ (other tokens) -> should be parsed and printed on the seprate lines
+$ exit -> should exit the program and clears the history 
+
+Files Included are:
+
+* smash.c
+
+* history.c
+
+* history.h
+
+* README
+
+
+
+
+
+
+

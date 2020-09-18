@@ -1,0 +1,43 @@
+**/ Saman Rastgar
+* CS253-Project smash
+* Jim Conrad
+**/
+
+Included Files:
+
+Makefile -----> to make the project
+smash.c -----> program that needs to be compiled and run
+
+In this project we are going to make a bash shell call smash
+Some keywords that is used in testing of this program:
+
+cd...Shows a valid working directory
+exit....exits from our bashe shell
+
+Functions used:
+
+chdir(token)....validates directory
+getcwd()....gets the path of working directory
+strtok()...parses the arguments given in the shell
+fgets()...reads from buffe
+strcmp()...compares strings together
+fprintf()...Used for printing dollar sign to konsole
+
+
+
+Example output
+
+bash_shell>./smash
+$exit
+bash_shell>./smash
+$ls -l -a
+[0] ls
+[1] -l
+[2] -a
+$cd /home
+/home
+$cd /asdfasdf
+error: /asdfasdf does not exist
+$exit
+bash_shell>
+

@@ -1,0 +1,53 @@
+SYNOPSIS
+    This is the manifest describing the files contained in the smash (Part 1)
+    assignment distribution.
+
+MANIFEST
+    backpack.sh This is the old autograder script.  I expect to update this
+                script to award partial credit and provide more extensive
+                feedback to you about what's working and what's not.  Don't
+                modify this file.
+    test.in     This file contains test data used by the autograder script.
+                To get partial credit working, I will likely push more
+                similarly named files (e.g. test2.in) before the assignment
+                is due.  Don't modify this file.
+    test.out    This file contains the expected output for the similarly
+                name *.in test data file.  Don't modify this file.
+    rubric.txt  This is the old rubric, explaining how the old autograder
+                awards credit.  The rubric will change to award partial
+                credit.  The autograder overwrites this file after you
+                submit the assignment and the results assess how partical
+                credit was awarded.
+
+CHECKING GIT STATUS
+    You may determine the status of your local git repository at any time by
+    first navigating into the directory named your eMail address and then...
+                git status
+    The above is always safe to do, and git will tell you about any new files
+    it found that aren't under management, and tell you about uncommitted
+    changes to files that are under management.
+
+UPDATING FROM SERVER
+    If you've created any new files, you may wish to add these to your
+    git "index" of managed files using...
+                git add file [...]
+    And you should commit any changes in your working copy to your local
+    repository using...
+                git commit -am "Explain why you made these changes"
+    Then you're ready to pull any additions and updates from the backpack
+    server to your local repository (and working copy) using...
+                git pull --rebase
+
+PUSHING CHANGES
+    You can push the current version of your git-managed files to the backpack
+    server at any time.  If you've created new files to be managed by git,
+    then you'll first need to add them to git's "index" of managed files...
+                git add file ...
+    Afterward, or anytime after you've changed one or more files, you can
+    commit the changes in your "working copy" (that's the directory where
+    you edit/make your product) to your local repository:
+                git commit -am "Comment about these changes"
+    After you've committed your changes to your working copy, you can push
+    the changes in your local repository to the remote server...
+                git push orgin master
+

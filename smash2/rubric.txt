@@ -1,0 +1,208 @@
+[134]  Note:  Grading the build
+[136]  SCORE:  grep confirmed "error" not in /tmp/jrc251300 for 4 points
+[137]  SCORE:  grep confirmed "warning" not in /tmp/jrc251300 for 4 points
+[141]  SCORE:  Found file smash for 1 points
+[147]  Note:  Grading smash exits normally with EOF input
+[150]  SCORE: smash ran and exited normally after EOF for 1 points
+[160]  Note:  Grading the exit command
+[163]  SCORE: exit command exited normally for 2 points
+[173]  Note:  Grading the cd command
+[177]  SCORE:  cd /home/JimConrad succeeded for 2 points
+[188]  Note:  Grading the cd to a non-existent directory
+[191]  SCORE:  grep found "Error" in /tmp/jrc251300 for 1 points
+[200]  SCORE:  tokens parsed correctly for 1 points
+[214]  SCORE:  grep found "init_history" in history.c for 1 points
+[215]  SCORE:  grep found "add_history" in history.c for 1 points
+[216]  SCORE:  grep found "clear_history" in history.c for 1 points
+[217]  SCORE:  grep found "print_history" in history.c for 1 points
+[223]  SCORE:  grep found "0.*ls" in /tmp/jrc251300 for 4 points
+[224]  SCORE:  grep found "1.*cd" in /tmp/jrc251300 for 4 points
+[225]  SCORE:  grep found "2.*pwd" in /tmp/jrc251300 for 4 points
+[226]  SCORE:  grep found "3.*history" in /tmp/jrc251300 for 4 points
+[227]  SCORE:  grep found "4.*history" in /tmp/jrc251300 for 4 points
+[233]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc251300 for 4 points
+[234]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc251300 for 4 points
+[239]  Note:  Grade make clean
+[241]  SCORE:  Verified file smash.o does not exist for 1 points
+[242]  SCORE:  Verified file smash does not exist for 1 points
+Grade:  50 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[135]  Note:  Grading the build
+[138]  SCORE:  grep confirmed "error" not in /tmp/jrc785334 for 4 points
+[139]  SCORE:  grep confirmed "warning" not in /tmp/jrc785334 for 4 points
+[149]  SCORE:  Found file smash for 1 points
+[155]  Note:  Grading smash exits normally with EOF input
+[158]  SCORE: smash ran and exited normally after EOF for 1 points
+[168]  Note:  Grading the exit command
+[171]  SCORE: exit command exited normally for 2 points
+[181]  Note:  Grading the cd command
+[185]  SCORE:  cd /home/JimConrad succeeded for 2 points
+[196]  Note:  Grading the cd to a non-existent directory
+[199]  SCORE:  grep found "Error" in /tmp/jrc785334 for 1 points
+[212]  ERROR:  smash is not parsing tokens from file test.in per assignment
+[213]  Expected output is in test.out
+[214]  Actual output is in /tmp/jrc785334
+[215]  Diff result is in diff.out
+[222]  SCORE:  grep found "init_history" in history.c for 1 points
+[223]  SCORE:  grep found "add_history" in history.c for 1 points
+[224]  SCORE:  grep found "clear_history" in history.c for 1 points
+[225]  SCORE:  grep found "print_history" in history.c for 1 points
+[231]  SCORE:  grep found "0.*ls" in /tmp/jrc785334 for 4 points
+[232]  SCORE:  grep found "1.*cd" in /tmp/jrc785334 for 4 points
+[233]  SCORE:  grep found "2.*pwd" in /tmp/jrc785334 for 4 points
+[234]  SCORE:  grep found "3.*history" in /tmp/jrc785334 for 4 points
+[235]  SCORE:  grep found "4.*history" in /tmp/jrc785334 for 4 points
+[241]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc785334 for 4 points
+[242]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc785334 for 4 points
+[247]  Note:  Grade make clean
+[249]  SCORE:  Verified file smash.o does not exist for 1 points
+[250]  SCORE:  Verified file smash does not exist for 1 points
+Grade:  49 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc  -Wall -g  -I. -o smash smash.c history.c
+rm -f *.o smash
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[135]  Note:  Grading the build
+[138]  SCORE:  grep confirmed "error" not in /tmp/jrc1045829 for 4 points
+[139]  SCORE:  grep confirmed "warning" not in /tmp/jrc1045829 for 4 points
+[149]  SCORE:  Found file smash for 1 points
+[155]  Note:  Grading smash exits normally with EOF input
+[158]  SCORE: smash ran and exited normally after EOF for 1 points
+[168]  Note:  Grading the exit command
+[171]  SCORE: exit command exited normally for 2 points
+[181]  Note:  Grading the cd command
+[185]  SCORE:  cd /home/JimConrad succeeded for 2 points
+[196]  Note:  Grading the cd to a non-existent directory
+[199]  SCORE:  grep found "Error" in /tmp/jrc1045829 for 1 points
+[212]  ERROR:  smash is not parsing tokens from file test.in per assignment
+[213]  Expected output is in test.out
+[214]  Actual output is in /tmp/jrc1045829
+[215]  Diff result is in diff.out
+[222]  SCORE:  grep found "init_history" in history.c for 1 points
+[223]  SCORE:  grep found "add_history" in history.c for 1 points
+[224]  SCORE:  grep found "clear_history" in history.c for 1 points
+[225]  SCORE:  grep found "print_history" in history.c for 1 points
+[231]  SCORE:  grep found "0.*ls" in /tmp/jrc1045829 for 4 points
+[232]  SCORE:  grep found "1.*cd" in /tmp/jrc1045829 for 4 points
+[233]  SCORE:  grep found "2.*pwd" in /tmp/jrc1045829 for 4 points
+[234]  SCORE:  grep found "3.*history" in /tmp/jrc1045829 for 4 points
+[235]  SCORE:  grep found "4.*history" in /tmp/jrc1045829 for 4 points
+[241]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc1045829 for 4 points
+[242]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc1045829 for 4 points
+[247]  Note:  Grade make clean
+[249]  SCORE:  Verified file smash.o does not exist for 1 points
+[250]  SCORE:  Verified file smash does not exist for 1 points
+Grade:  49 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc  -Wall -g  -I. -o smash smash.c history.c
+rm -f *.o smash
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[135]  Note:  Grading the build
+[138]  SCORE:  grep confirmed "error" not in /tmp/jrc805391 for 4 points
+[139]  SCORE:  grep confirmed "warning" not in /tmp/jrc805391 for 4 points
+[149]  SCORE:  Found file smash for 1 points
+[155]  Note:  Grading smash exits normally with EOF input
+[158]  SCORE: smash ran and exited normally after EOF for 1 points
+[168]  Note:  Grading the exit command
+[171]  SCORE: exit command exited normally for 2 points
+[181]  Note:  Grading the cd command
+[185]  SCORE:  cd /home/JimConrad succeeded for 2 points
+[196]  Note:  Grading the cd to a non-existent directory
+[199]  SCORE:  grep found "Error" in /tmp/jrc805391 for 1 points
+[212]  ERROR:  smash is not parsing tokens from file test.in per assignment
+[213]  Expected output is in test.out
+[214]  Actual output is in /tmp/jrc805391
+[215]  Diff result is in diff.out
+[222]  SCORE:  grep found "init_history" in history.c for 1 points
+[223]  SCORE:  grep found "add_history" in history.c for 1 points
+[224]  SCORE:  grep found "clear_history" in history.c for 1 points
+[225]  SCORE:  grep found "print_history" in history.c for 1 points
+[231]  SCORE:  grep found "0.*ls" in /tmp/jrc805391 for 4 points
+[232]  SCORE:  grep found "1.*cd" in /tmp/jrc805391 for 4 points
+[233]  SCORE:  grep found "2.*pwd" in /tmp/jrc805391 for 4 points
+[234]  SCORE:  grep found "3.*history" in /tmp/jrc805391 for 4 points
+[235]  SCORE:  grep found "4.*history" in /tmp/jrc805391 for 4 points
+[241]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc805391 for 4 points
+[242]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc805391 for 4 points
+[247]  Note:  Grade make clean
+[249]  SCORE:  Verified file smash.o does not exist for 1 points
+[250]  SCORE:  Verified file smash does not exist for 1 points
+Grade:  49 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc  -Wall -g  -I. -o smash smash.c history.c
+rm -f *.o smash
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[135]  Note:  Grading the build
+[138]  SCORE:  grep confirmed "error" not in /tmp/jrc814623 for 4 points
+[139]  SCORE:  grep confirmed "warning" not in /tmp/jrc814623 for 4 points
+[149]  SCORE:  Found file smash for 1 points
+[155]  Note:  Grading smash exits normally with EOF input
+[158]  SCORE: smash ran and exited normally after EOF for 1 points
+[168]  Note:  Grading the exit command
+[171]  SCORE: exit command exited normally for 2 points
+[181]  Note:  Grading the cd command
+[185]  SCORE:  cd /home/JimConrad succeeded for 2 points
+[196]  Note:  Grading the cd to a non-existent directory
+[199]  SCORE:  grep found "Error" in /tmp/jrc814623 for 1 points
+[212]  ERROR:  smash is not parsing tokens from file test.in per assignment
+[213]  Expected output is in test.out
+[214]  Actual output is in /tmp/jrc814623
+[215]  Diff result is in diff.out
+[222]  SCORE:  grep found "init_history" in history.c for 1 points
+[223]  SCORE:  grep found "add_history" in history.c for 1 points
+[224]  SCORE:  grep found "clear_history" in history.c for 1 points
+[225]  SCORE:  grep found "print_history" in history.c for 1 points
+[231]  SCORE:  grep found "0.*ls" in /tmp/jrc814623 for 4 points
+[232]  SCORE:  grep found "1.*cd" in /tmp/jrc814623 for 4 points
+[233]  SCORE:  grep found "2.*pwd" in /tmp/jrc814623 for 4 points
+[234]  SCORE:  grep found "3.*history" in /tmp/jrc814623 for 4 points
+[235]  SCORE:  grep found "4.*history" in /tmp/jrc814623 for 4 points
+[241]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc814623 for 4 points
+[242]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc814623 for 4 points
+[247]  Note:  Grade make clean
+[249]  SCORE:  Verified file smash.o does not exist for 1 points
+[250]  SCORE:  Verified file smash does not exist for 1 points
+Grade:  49 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+gcc  -Wall -g  -I. -o smash smash.c history.c
+rm -f *.o smash

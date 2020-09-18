@@ -1,0 +1,32 @@
+[124]  Note:  Grading the build
+[126]  SCORE:  grep confirmed error not in /tmp/jrc23117 for 4 points
+[127]  SCORE:  grep confirmed warning not in /tmp/jrc23117 for 4 points
+[130]  SCORE:  Found file wc-match for 1 points
+[135]  Note:  Grading program will run without options or data
+[138]  SCORE: wc-match ran and exited normally for 3 points
+[147]  Note:  Grading -h option
+[150]  SCORE: wc-match -h exited normally for 5 points
+[159]  Note:  Grading -m option
+[164]  SCORE: wc-match -m without an argument exit status != 0 for 5 points
+[171]  Note:  Grading invalid -x option
+[176]  SCORE: wc-match -x exit status != 0 for 1 points
+[183]  Note:  Grading file, data
+[187]  SCORE:  grep found words.*5770 in data.result for 2 points
+[188]  SCORE:  grep found chars.*34553 in data.result for 2 points
+[189]  SCORE:  grep found lines.*769 in data.result for 2 points
+[190]  SCORE:  grep found digit.*9.*6 in data.result for 2 points
+[191]  SCORE:  grep found matched.*545 in data.result for 3 points
+[196]  Note:  Grading file, data1
+[200]  SCORE:  grep found words.*30 in data1.result for 2 points
+[201]  SCORE:  grep found chars.*164 in data1.result for 2 points
+[202]  SCORE:  grep found lines.*4 in data1.result for 2 points
+[203]  SCORE:  grep found digit.*0.*0 in data1.result for 2 points
+[204]  SCORE:  grep found matched in data1.result for 2 points
+[209]  Note:  Grading file, data2
+[213]  SCORE:  grep found words.*25 in data2.result for 1 points
+[214]  SCORE:  grep found chars.*171 in data2.result for 1 points
+[215]  SCORE:  grep found lines.*9 in data2.result for 1 points
+[216]  SCORE:  grep found digit.*2.*2 in data2.result for 1 points
+[217]  SCORE:  grep found matched.*9 in data2.result for 1 points
+[222]  Note:  Grade make clean
+[225]  SCORE: make clean exited normally for 2 points

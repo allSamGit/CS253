@@ -1,0 +1,217 @@
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[137]  Note:  Grading the build
+[140]  SCORE:  grep confirmed "warning" not in /tmp/jrc131881 for 10 points
+[153]  Note:  Grading the exit command
+[156]  SCORE: exit command exited normally for 5 points
+[166]  Note:  Grading commands, arguments and the cd command
+[174]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[183]  Note:  Grading attempt to execute a non-existent command/pgm
+[186]  ERROR:  Could not grep "not *found" in /tmp/jrc131881 for -12 points
+[192]  SCORE:  grep found "ls" in /tmp/jrc131881 for 2 points
+[193]  SCORE:  grep found "cd" in /tmp/jrc131881 for 2 points
+[194]  SCORE:  grep found "pwd" in /tmp/jrc131881 for 2 points
+[195]  SCORE:  grep found "history" in /tmp/jrc131881 for 2 points
+[201]  SCORE:  grep confirmed "defunct" not in /tmp/jrc131881 for 10 points
+[208]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc131881 for 10 points
+[209]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc131881 for 10 points
+Grade:  63 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc464305 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  ERROR:  Could not grep "not *found" in /tmp/jrc464305 for -12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc464305 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc464305 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc464305 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc464305 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc464305 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc464305 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc464305 for 10 points
+Grade:  63 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc725574 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  ERROR:  Could not grep "not *found" in /tmp/jrc725574 for -12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc725574 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc725574 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc725574 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc725574 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc725574 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc725574 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc725574 for 10 points
+Grade:  63 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc745916 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  ERROR:  Could not grep "not *found" in /tmp/jrc745916 for -12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc745916 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc745916 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc745916 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc745916 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc745916 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc745916 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc745916 for 10 points
+Grade:  63 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc837364 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  SCORE:  grep found "not *found" in /tmp/jrc837364 for 12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc837364 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc837364 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc837364 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc837364 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc837364 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc837364 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc837364 for 10 points
+Grade:  75 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc833305 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  SCORE:  grep found "not *found" in /tmp/jrc833305 for 12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc833305 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc833305 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc833305 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc833305 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc833305 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc833305 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc833305 for 10 points
+Grade:  75 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+./backpack.sh output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+[140]  Note:  Grading the build
+[143]  SCORE:  grep confirmed "warning" not in /tmp/jrc856556 for 10 points
+[156]  Note:  Grading the exit command
+[159]  SCORE: exit command exited normally for 5 points
+[169]  Note:  Grading commands, arguments and the cd command
+[177]  SCORE:  Verified file testDir/testFile.txt does not exist for 10 points
+[186]  Note:  Grading attempt to execute a non-existent command/pgm
+[189]  SCORE:  grep found "not *found" in /tmp/jrc856556 for 12 points
+[195]  SCORE:  grep found "ls" in /tmp/jrc856556 for 2 points
+[196]  SCORE:  grep found "cd" in /tmp/jrc856556 for 2 points
+[197]  SCORE:  grep found "pwd" in /tmp/jrc856556 for 2 points
+[198]  SCORE:  grep found "history" in /tmp/jrc856556 for 2 points
+[204]  SCORE:  grep confirmed "defunct" not in /tmp/jrc856556 for 10 points
+[211]  SCORE:  grep confirmed "Invalid\s*write" not in /tmp/jrc856556 for 10 points
+[212]  SCORE:  grep confirmed "definitely lost\s*[1-8]" not in /tmp/jrc856556 for 10 points
+Grade:  75 points
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Build output follows:
+<><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+rm: cannot remove ‘smash’: No such file or directory
+gcc  -Wall -g  -I. -o smash smash.c history.c
+/home/JimConrad/cs253/hw/RastgarSaman@u.boisestate.edu/backpack/CS253-2-s18/smash3/testDir
